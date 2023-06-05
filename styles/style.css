@@ -222,3 +222,44 @@ hr {
 /*-----------------
  Featured products
 ------------------- */
+
+.feathur-product {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.feathur-product p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    line-height: 143%;
+    margin: 3px 0 0 0;
+}
+
+.feathur-product img {
+    width: 404px;
+    height: 270px;
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding: 10px 30px;
+    background-color: #E02C6D;
+    color: white;
+    margin-top: 16px;
+
+}
+
+.right-arrow {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.gear,
+.gear-info {
+    width: 50%;
+}
